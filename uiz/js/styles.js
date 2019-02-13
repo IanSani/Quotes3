@@ -10,5 +10,8 @@ var car=prompt("What car do you prefer to drive between a subaru and a toyota?")
    alert(name+" "+"You are rich");
  }else if(cars==="toyota" && pets==="dog" && homes==="mombasa"){
    alert(name+" "+"Your middle class");
+ }else {
+   alert(name+" "+"Unknown")
  }
+
 }
