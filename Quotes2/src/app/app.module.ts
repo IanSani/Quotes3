@@ -4,11 +4,11 @@ import { FormsModule} from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QuoteComponent } from './quote/quote.component';
+import { QuoteComponent } from './quotes/quotes.component';
 // import { QuoteDetailsComponent } from './quote-details/goal-details.component';
 // import {  StrikeThroughDirective  } from './strike.directive';
 import { DateCountPipe } from './date-count.pipe';
-import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { FormComponent } from './form/form.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { StrikeThroughDirective } from './strike-through.directive';
 
@@ -19,7 +19,7 @@ import { StrikeThroughDirective } from './strike-through.directive';
    QuoteDetailsComponent,
    StrikeThroughDirective,
    DateCountPipe,
-   QuoteFormComponent,
+   FormComponent,
    QuoteDetailsComponent,
    StrikeThroughDirective
  ],
